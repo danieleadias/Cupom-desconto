@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(13, 5, 20);
+    color: white;
+}
+
+#titulo{
+    font-size:30pt;
+    font-family: monospace;
+    text-align: center;
+
+}
+.cupom{
+    position: absolute;
+    font-size: 16pt;
+    margin-left: 10%;
+    margin-top: 8%;
+    width:30%;
+    color: rgb(243, 240, 247);
+}
+
+form{
+    width: 10%;
+    flex-direction: column;
+    display: block;
+    position: absolute;
+    margin-left: 45%;
+    padding: 20px;
+    margin-top: 5%;
+
+}
+
+input[type="submit"]{
+    padding:12px;
+    border-radius: 15px;
+    background-color: rgb(211, 45, 87);
+    color: white;
+    font-size: 10pt;
+    border: solid transparent;
+
+
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+}
+
+input[type="text"],input[type="email"],input[type="tel"]{
+    padding: 9px;
+    width: 240px;
+    border-radius: 6px;
+
+}
+#cadastro{
+    color: #fff;
+    text-align: center;
+    width: 250px;
+    text-align: center;
+    
+}
+
+p{
+    color: rgb(233, 72, 206);
+}
+h5{
+    color: white;
+    font-size: 12pt;
+}
